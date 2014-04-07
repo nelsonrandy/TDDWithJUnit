@@ -29,7 +29,7 @@ public class Car {
 	 * constructor.
 	 * 
 	 * @param amount
-	 *            The amount the car will accelerate
+	 * 
 	 */
 	public void accelerate(int amount) {
 		int limit = this.maxSpeed - this.speed;
@@ -44,8 +44,8 @@ public class Car {
 	 * Displays the object as a string in the format "Color: red, Speed: 100"
 	 */
 	public String toString() {
-		
-		return("Color: Red, Speed: 0");
+
+		return ("Color: Red, Speed: 0");
 	}
 
 	public void decelerate(int amount) {
