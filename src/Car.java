@@ -1,6 +1,6 @@
 public class Car {
 
-	private String color;
+	public String color;
 	private int speed;
 	private int maxSpeed;
 	private int minimumSpeed;
@@ -41,9 +41,9 @@ public class Car {
 	}
 
 	/**
-	 * Displays the object as a string in the format "Color: red, Speed: 100"
+	 * Displays  the object as a string in the format "Color: red, Speed: 100"
 	 */
-	public String createsAString() {
+	public String toString() {
 
 		return ("Color: Red, Speed: 0");
 	}
