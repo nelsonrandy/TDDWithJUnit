@@ -25,9 +25,6 @@ public class Car {
 	};
 
 	/**
-	 * Accelerates the car up to the maximum amount set in the object
-	 * constructor.
-	 * 
 	 * @param amount
 	 * 
 	 */
@@ -41,7 +38,7 @@ public class Car {
 	}
 
 	/**
-	 * Displays  the object as a string in the format "Color: red, Speed: 100"
+	 * Displays the object as a string in the format "Color: red, Speed: 100"
 	 */
 	public String toString() {
 
