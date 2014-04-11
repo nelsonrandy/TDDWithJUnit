@@ -26,7 +26,11 @@ public class CarTest {
 	}
 
 	@Test
+<<<<<<< HEAD
 	public void createsAString() {
+=======
+	public void canDoToString() {
+>>>>>>> 1ac2f7d955c1b7228f5562e03bfcec295dff76e0
 		Car car1 = new Car("Red", 100);
 		assertThat(car1.toString(), is("Color: Red, Speed: 0"));
 	}

@@ -25,9 +25,12 @@ public class Car {
 	};
 
 	/**
+<<<<<<< HEAD
 	 * Accelerates the car up to the maximum amount set in the object
 	 * constructor.
 	 * 
+=======
+>>>>>>> 1ac2f7d955c1b7228f5562e03bfcec295dff76e0
 	 * @param amount
 	 * 
 	 */
@@ -41,7 +44,11 @@ public class Car {
 	}
 
 	/**
+<<<<<<< HEAD
 	 * Displays  the object as a string in the format "Color: red, Speed: 100"
+=======
+	 * Displays the object as a string in the format "Color: red, Speed: 100"
+>>>>>>> 1ac2f7d955c1b7228f5562e03bfcec295dff76e0
 	 */
 	public String toString() {
 
